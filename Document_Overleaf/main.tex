@@ -1,0 +1,294 @@
+%Schriftgröße, Dokumentformat, Dokumenttyp
+\documentclass[11pt,a4paper]{article}
+%Einstellungen der Seitenränder
+\usepackage[left=3cm,right=4cm,top=2cm,bottom=2cm,includeheadfoot]{geometry}
+%neue Rechtschreibung und Formelsatz
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{amsmath,amssymb,amsthm}
+%Graphiken
+\usepackage{graphicx}
+\usepackage{float}
+%Zeilenabstand
+\usepackage{setspace}\onehalfspacing
+%Aufzählungen
+\usepackage{paralist}
+%Abkürzungen
+\usepackage{acronym}
+%Tabelle
+\usepackage{multirow}
+%Kopf- und Fußzeile
+\usepackage{fancyhdr}
+%Fußnotenkram
+\usepackage{footnote}
+\usepackage{hyperref}
+\usepackage[hang]{footmisc}
+\usepackage{graphics}
+\setlength{\footnotesep}{0.25 cm}
+\usepackage{cite}
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{references.bib} %Import the bibliography file
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{tikz}
+
+
+\begin{document}
+% Keine Seitenzahlen im Vorspann
+\pagestyle{empty}
+	
+%%%%%%%%%%%%%%%%%%%%%%% Titelblatt der Arbeit %%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}				
+	\begin{center}
+Institute for Quantitative Business and Economics Research\\
+Faculty of Business, Economics and Social Sciences\\
+Kiel University \\
+		\vspace{5cm}
+		\LARGE{ \bf{Optimal Portfolio Building using Machine Learning Techniques}}
+		\vspace{2cm}
+		
+		\large{\bf{Masterthesis}}\\
+		Submission Date: 31.08.2023
+		\vspace{1.5cm}
+
+\begin{flushleft}
+\vfill
+	Author: Anton Maximilian Kruse\\
+	Subject: ?\\
+	Semester: 6\\
+	Module: ?\\
+	Stu-Email-Adress: stu229833@mail.uni-kiel.de\\
+	Matriculation number: \\
+	\vspace{1cm}
+	First Assessor: Prof. Dr. Markus Haas\\
+	Second Assessor:
+\end{flushleft}	
+		
+				
+	\end{center}
+
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%% Inhaltsverzeichnis %%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+	\tableofcontents
+	\newpage
+
+
+% Kopf- und Fußzeile definieren 
+\pagestyle{fancy}					
+\fancyhf{}								
+%Kopfzeile rechts bzw. außen			
+\fancyhead[R]{}							 
+%Linie oben								 
+\renewcommand{\headrulewidth}{0pt}	 
+%Fußzeile mittig					 
+\fancyfoot[R]{\thepage}				 
+%Linie unten										
+\renewcommand{\footrulewidth}{0pt}	 
+%Seitenzahlen ab hier						 
+\pagenumbering {Roman} 
+\setcounter{page}{1}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% List of Figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{Figure directory}
+\listoffigures
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% List of Tables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{Table directory}
+\listoftables
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% List of Acronyms %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{List of Acronyms} %Bitte alphabetisch ordnen!
+\addcontentsline{toc}{section}{Abbreviation directory}
+\rule[0pt]{0mm}{10pt}
+\noindent Include an abbreviation directory if you use more than three uncommon abbreviations.\\
+
+\begin{tabular}{l l l}
+
+
+	% B
+	BLL && Bayesian Local Likelihood\\
+	BR&&Bounded Rationality\\
+	% D
+	DSGE&&Dynamic Stochastic General Equilibrium\\
+
+
+\end{tabular}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% List of Symbols %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{List of Symbols} 
+\addcontentsline{toc}{section}{Symbol directory}
+\noindent Include a symbol directory if you use more than three uncommon abbreviations.
+	\begin{tabular}{l l}
+		\textbf{} & \\
+		$\pi$ & rate of inflation\\
+		$i$ & nominal interest rate \\
+		$r$ & real interest rate \\
+		$M$ & money stock \\
+
+
+	\end{tabular}\\ \vspace{1cm}
+
+								
+		
+		
+
+
+\newpage
+
+
+% Kopf- und Fußzeile definieren %%
+\pagestyle{fancy}						
+\fancyhf{}								
+%Kopfzeile rechts bzw. außen			
+\fancyhead[R]{}							 
+%Linie oben								 
+\renewcommand{\headrulewidth}{0pt}	 
+%Fußzeile mittig					 
+\fancyfoot[R]{\thepage}				 
+%Linie unten										
+\renewcommand{\footrulewidth}{0pt}	 
+%Seitenzahlen ab hier						 
+\pagenumbering {arabic}
+\onehalfspacing	
+
+\include{Chapter1.tex}
+
+\include{Chapter2.tex}
+
+\include{Chapter3.tex}
+
+\include{Chapter4.tex}
+
+
+
+% Kopf- und Fußzeile definieren 
+\pagestyle{fancy}						
+\fancyhf{}								
+%Kopfzeile rechts bzw. außen			
+\fancyhead[R]{}							 
+%Linie oben								 
+\renewcommand{\headrulewidth}{0pt}	 
+%Fußzeile mittig					 
+\fancyfoot[R]{\thepage}				 
+%Linie unten										
+\renewcommand{\footrulewidth}{0pt}	 
+%Seitenzahlen ab hier						 
+\pagenumbering {Roman} 
+\setcounter{page}{5}
+\newpage\clearpage
+
+\newpage
+\section*{Bibliography}
+\addcontentsline{toc}{section}{Bibliography}
+\printbibliography[]
+
+
+\newpage
+
+\addcontentsline{toc}{section}{Appendix}
+\begin{appendix}
+	The appendix contains tables, data, questionnaires, proofs, derivations, etc., which you consider merely additional information and negatively affect the reading flow in the main text. Do not use the appendix for outsourcing text that does not fit into the main text due to page restrictions. Only include an appendix when needed.
+	\section{Equality of 1 and 2}
+	\label{proof:1equal2}
+	\begin{align}
+	x^2 &= x^2 \\
+	x^2 - x^2 &= x^2 - x^2 \\
+	x^2 - x^2 &= x^2 - x^2 + x^2 - x^2	\\
+	x\cdot\left(x-x\right) &= \left(x+x\right)\cdot\left(x-x\right)	\\
+	x &= \left(x+x\right)	\\
+	1 &= 2	\hspace{1cm} q.e.d.
+	\end{align}
+\section{Latex examples}
+\begin{table}
+	\centering\rotatebox{90}{%
+		\resizebox{\textheight}{!}{%
+			\begin{tabular}{lccccccccccccccccccc}
+				\hline \hline
+				&&&&&&&&&&&&&&&&&&&\\
+				\textit{Correlation}&	Animal Spirits & & Output $y_t$ & &Consumption $c_t$ & & Investment $i_t$&& Hours Worked $l_t$ &&Capital Arbitrage $q_t$ && Inflation $\pi_t$&& Rental Rate $r^k_t$&&Wage $w_t$&&Interest Rate $r_t$\\
+				\cline{2-2} \cline{4-4} \cline{6-6} \cline{8-8} \cline{10-10} \cline{12-12} \cline{14-14} \cline{16-16} \cline{18-18} \cline{20-20} 
+				&&&&&&&&&&&&&&&&&&&\\
+				Animal Spirits&1&&-&&-0.6520**&&0.6831**&&0.3197**&&0.3259**&&0.3918**&&-0.4220&&0.1646&&-\\
+				Output $y_t$&-&&1&&0.8265**&&0.4859**&&0.8559**&&0.7169**&&-0.6618**&&0.8279**&&0.4404**&&-0.5713**\\
+				Consumption $c_t$&-0.6520**&&0.8265**&&1&&0.5300**&&0.6896**&&0.9628**&&-0.7739**&&0.6663**&&0.3654**&&-0.7699**\\
+				Investment $i_t$&0.6831**&&0.4854**&&0.5300**&&1&&0.4229**&&0.4724**&&-0.2134*&&0.2835**&&0.1891**&&-0.2100*\\
+				Hours Worked $l_t$&0.3197**&&0.8559**&&0.6896**&&0.4229**&&1&&0.5279**&&-0.4433**&&0.8108**&&0.2382*&&-0.3638**\\
+				Capital Arbitrage $q_t$&0.3259**&&0.7169**&&0.9628**&&0.4724**&&0.5279**&&1&&-0.7767**&&0.5515**&&0.3607**&&-0.7936**\\
+				Inflation $\pi_t$&0.3918**&&-0.6618**&&-0.7739**&&-0.2134*&&-0.4433**&&-0.7767**&&1&&-0.5601**&&-0.4131**&&0.9647**\\
+				Rental Rate $r^k_t$&-0.4220&&0.8279**&&0.6663**&&0.2835**&&0.8108**&&0.5515**&&-0.5601**&&1&&0.7393**&&-0.4796**\\
+				Wage $w_t$&0.1646&&0.4404**&&0.3654**&&0.1891**&&0.2382*&&0.3607**&&-0.4131**&&0.7393**&&1&&-0.3712**\\
+				Interest Rate $r_t$&-&&-0.5713**&&-0.7699**&&-0.2100*&&-0.3638**&&-0.7936**&&0.9647**&&-0.4796**&&-0.3712**&&1\\
+				&&&&&&&&&&&&&&&&&&&\\
+				\hline \hline
+	\end{tabular}}}
+	\caption[Rotated table]{Rotated table. \\ **: 99\% Confidence; *: 95\% Confidence.}
+\end{table}
+Some aligned equations
+	\begin{align}
+	\widetilde{\text{E}}_tv_{t+1}&= \underbrace{(\omega_t^{v,sta}+\omega_t^{v,anc}(\varOmega+\varUpsilon(1-\varpi)))}_{\Lambda^v_t}v_{t-1} \notag \\&-\omega_t^{v,anc}\varOmega v_{t-2}+\underbrace{\omega_t^{v,anc}(1-\varpi)(1-\varUpsilon)}_{\Theta^v_t}\widetilde{\text{E}}^{anc}_{t-1}v_{t}+\omega_t^{v,anc}\varpi v^{avg.}_{t-1}
+	\end{align}
+	and matrices that have no tag 
+	\begin{align}
+	\textbf{A}_{10\times10}= \begin{pmatrix}
+	A_{1,5\times5} & A_{2,5\times5} \\
+	A_{3,5\times5} & A_{4,5\times5}
+	\end{pmatrix}, \quad \widetilde{\textbf{B}}_{t,10\times10}= \begin{pmatrix}
+	B_{1,5\times5} & B_{2,5\times5} \\
+	B_{3,5\times5} & B_{4,5\times5}
+	\end{pmatrix}\notag \\ \widetilde{\textbf{C}}_{t,10\times10}=\begin{pmatrix}
+	C_{1,5\times5} & C_{2,5\times5} \\
+	C_{3,5\times5} & C_{4,5\times5}
+	\end{pmatrix}, \quad \textbf{D}_{t,10\times9}= \begin{pmatrix}
+	D_{1,5\times5} & D_{2,5\times4} \\
+	D_{3,5\times5} & D_{4,5\times4}
+	\end{pmatrix}\notag \\
+	\widetilde{\textbf{F}}_{t,10\times10}=\begin{pmatrix}
+	F_{1,5\times5} & F_{2,5\times5} \\
+	F_{3,5\times5} & F_{4,5\times5}
+	\end{pmatrix}, \quad 	\widetilde{\textbf{G}}_{t,10\times10}= \begin{pmatrix}
+	G_{1,5\times5} & G_{2,5\times5} \\
+	G_{3,5\times5} & G_{4,5\times5}
+	\end{pmatrix}\notag 
+	\end{align}
+	of the system 
+   \begin{align}
+   \textbf{V}_t &= \textbf{A}^{-1}\left[\widetilde{\textbf{B}}_t\textbf{V}_{t-1}+\widetilde{\textbf{C}}_t\textbf{V}_{t-2}+\widetilde{\textbf{F}}_t\widetilde{\text{E}}^{anc}_{t-1}\widetilde{\textbf{V}}_{t}+\widetilde{\textbf{G}}_t\textbf{V}^{avg.}_{t-1}+\textbf{D}\textbf{e}_t\right],
+   \end{align}
+   \newpage
+	\section{Questionaire}
+	Here you can include a questionnaire that you used in your paper.
+\end{appendix}
+\newpage
+\section*{Affirmation}
+I hereby declare that I have composed my Bachelor/Master's thesis / Seminar paper 
+\textit{"title"} independently using only those resources mentioned, 
+and that I have as such identified all passages which I have 
+taken from publications verbatim or in substance. I agree that the work will be reviewed using plagiarism testing software.
+Neither 
+this paper, nor any extract of it, has been previously 
+submitted to an examining authority, in this or a similar 
+form.\\ \\
+\textit{Only for Bacherlor’s and Master’s theses with included CD:}\\
+I have ensured that the written version of this thesis is 
+identical to the version saved on the enclosed storage 
+medium. \\\\\\
+
+
+\begin{flushright}
+$\overline{~~~~~~~~~~~~~~~\mbox{(Date, Signature)}~~~~~~~~~~~~~~~}$
+\end{flushright}
+\end{document}
