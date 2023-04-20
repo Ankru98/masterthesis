@@ -1,0 +1,148 @@
+The linear regression model has the following performance:
+MAPE:  45.6910638145044
+R2 score:  -2.2957597761969004
+MASE:  8.323047402392989
+MSE:  2.806474889968858
+The ridge regression model has the following performance:
+MAPE:  41.55802669199635
+R2 score:  -5.068838539421969
+MASE:  9.627630394393538
+MSE:  4.725884525738499
+The lasso regression model has the following performance:
+MAPE:  47.254194805064294
+R2 score:  -2.2771490522630278
+MASE:  8.436662088188536
+MSE:  2.908666702658795
+The elastic net regression model has the following performance:
+MAPE:  47.254194805064294
+R2 score:  -2.2771490522630278
+MASE:  8.436662088188536
+MSE:  2.908666702658795
+The bridge regression model has the following performance:
+MAPE:  70.75659654914958
+R2 score:  -3.003738065650542
+MASE:  7.583519175317216
+MSE:  2.399472742358792
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+The pls regression model has the following performance:
+MAPE:  97.08283371937601
+R2 score:  -7.4301888992385
+MASE:  14.05902148712397
+MSE:  8.292200344826766
+The pls canonical regression model has the following performance:
+MAPE:  37.470971689130295
+R2 score:  -4.773536396459083
+MASE:  7.390673819796626
+MSE:  2.7788201122553096
+The cca regression model has the following performance:
+MAPE:  88.61602341891123
+R2 score:  -5.533738481763187
+MASE:  9.99842821577712
+MSE:  3.5796015503866454
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+The random forest model has the following performance:
+MAPE:  98.40260899328106
+R2 score:  -10.28919588130933
+MASE:  16.388545539828986
+MSE:  10.962773848226108
+The ada boosting model has the following performance:
+MAPE:  41.655722798816086
+R2 score:  -1.3705996912959197
+MASE:  7.579137478631095
+MSE:  2.571411769776421
+The extra tree regression model has the following performance:
+MAPE:  37.617834600263556
+R2 score:  -1.095428780620034
+MASE:  7.153755225947052
+MSE:  2.340890552086862
+The support vector regression model has the following performance:
+MAPE:  43.55229666872609
+R2 score:  -1.663160512175679
+MASE:  8.151721131851815
+MSE:  2.9512734730626744
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+The dimensionality reduction ensemble model has the following performance:
+MAPE:  100.0
+R2 score:  -31.48693883109621
+MASE:  32.09811514977248
+MSE:  39.693017331483404
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+wandb: Network error (ReadTimeout), entering retry loop.
+The gradient boosting model has the following performance:
+MAPE:  29.33743364426016
+R2 score:  -1.3299686732521825
+MASE:  7.676619932079913
+MSE:  2.5992532826493466
+The ada boosting model has the following performance:
+MAPE:  35.04555207672215
+R2 score:  -1.3413762570278058
+MASE:  7.840344600183127
+MSE:  2.936764241739013
+The extra tree regression model has the following performance:
+MAPE:  43.029890328395155
+R2 score:  -2.2712398671384832
+MASE:  9.298961084274667
+MSE:  4.021378362793266
+The linear regression model has the following performance:
+MAPE:  45.6910638145044
+R2 score:  -2.2957597761969004
+MASE:  8.323047402392989
+MSE:  2.806474889968858
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+The ridge regression model has the following performance:
+MAPE:  41.55802669199635
+R2 score:  -5.068838539421969
+MASE:  9.627630394393538
+MSE:  4.725884525738499
