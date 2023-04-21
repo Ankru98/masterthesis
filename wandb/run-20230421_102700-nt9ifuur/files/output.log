@@ -1,0 +1,115 @@
+The linear regression model has the following performance:
+MAPE:  45.6910638145044
+R2 score:  -2.2957597761969004
+MASE:  8.323047402392989
+MSE:  2.806474889968858
+The ridge regression model has the following performance:
+MAPE:  41.55802669199635
+R2 score:  -5.068838539421969
+MASE:  9.627630394393538
+MSE:  4.725884525738499
+The lasso regression model has the following performance:
+MAPE:  47.254194805064294
+R2 score:  -2.2771490522630278
+MASE:  8.436662088188536
+MSE:  2.908666702658795
+The elastic net regression model has the following performance:
+MAPE:  47.254194805064294
+R2 score:  -2.2771490522630278
+MASE:  8.436662088188536
+MSE:  2.908666702658795
+The bridge regression model has the following performance:
+MAPE:  70.75659654914958
+R2 score:  -3.003738065650542
+MASE:  7.583519175317216
+MSE:  2.399472742358792
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
