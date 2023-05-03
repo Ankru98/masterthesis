@@ -2996,3 +2996,129 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', po
 2023-05-03 14:48:44,323 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
 2023-05-03 14:48:47,130 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
 2023-05-03 14:48:49,350 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:48:52,153 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:48:54,371 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:48:57,169 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:48:59,391 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:02,184 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:04,408 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:07,203 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:09,427 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:12,224 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:14,446 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:17,246 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:19,471 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:22,272 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:24,493 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:27,293 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:29,521 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:32,319 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:34,537 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:37,344 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:39,563 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:42,367 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:44,586 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:47,391 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:49,610 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:52,416 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:54,633 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:49:57,436 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:49:59,661 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:50:02,455 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:50:04,681 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:50:07,473 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:50:09,705 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:50:12,490 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:50:14,732 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-03 14:50:17,510 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:50:19,544 DEBUG   SenderThread:97728 [sender.py:send():375] send: exit
+2023-05-03 14:50:19,544 INFO    SenderThread:97728 [sender.py:send_exit():598] handling exit code: 0
+2023-05-03 14:50:19,552 INFO    SenderThread:97728 [sender.py:send_exit():600] handling runtime: 12
+2023-05-03 14:50:19,555 INFO    SenderThread:97728 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-03 14:50:19,556 INFO    SenderThread:97728 [sender.py:send_exit():606] send defer
+2023-05-03 14:50:19,558 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:19,558 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-03 14:50:19,558 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:19,558 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-03 14:50:19,558 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 1
+2023-05-03 14:50:19,559 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:19,559 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-03 14:50:19,559 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:19,559 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-03 14:50:19,559 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 2
+2023-05-03 14:50:19,559 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:19,559 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-03 14:50:19,559 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:19,559 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-03 14:50:19,559 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 3
+2023-05-03 14:50:19,559 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:19,559 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-03 14:50:19,559 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:19,559 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-03 14:50:19,559 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 4
+2023-05-03 14:50:19,559 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:19,559 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-03 14:50:19,559 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:19,560 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-03 14:50:19,560 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 5
+2023-05-03 14:50:19,560 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:19,560 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-03 14:50:19,561 DEBUG   SenderThread:97728 [sender.py:send():375] send: summary
+2023-05-03 14:50:19,561 INFO    SenderThread:97728 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-03 14:50:19,561 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:19,561 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-03 14:50:19,561 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 6
+2023-05-03 14:50:19,561 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:19,561 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-03 14:50:19,561 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:19,561 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-03 14:50:19,562 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 7
+2023-05-03 14:50:19,562 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: status_report
+2023-05-03 14:50:19,562 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:19,562 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-03 14:50:19,562 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:19,562 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-03 14:50:19,627 INFO    Thread-12 :97728 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/wandb-summary.json
+2023-05-03 14:50:20,550 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-03 14:50:21,204 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 8
+2023-05-03 14:50:21,205 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: poll_exit
+2023-05-03 14:50:21,205 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:21,207 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-03 14:50:21,208 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:21,208 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-03 14:50:21,209 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 9
+2023-05-03 14:50:21,209 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:21,209 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-03 14:50:21,209 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:21,209 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-03 14:50:21,210 INFO    SenderThread:97728 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-03 14:50:21,558 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-03 14:50:21,639 INFO    SenderThread:97728 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/output.log
+2023-05-03 14:50:21,640 INFO    SenderThread:97728 [dir_watcher.py:finish():395] scan: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files
+2023-05-03 14:50:21,641 INFO    SenderThread:97728 [dir_watcher.py:finish():409] scan save: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/requirements.txt requirements.txt
+2023-05-03 14:50:21,643 INFO    SenderThread:97728 [dir_watcher.py:finish():409] scan save: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/output.log output.log
+2023-05-03 14:50:21,654 INFO    SenderThread:97728 [dir_watcher.py:finish():409] scan save: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/config.yaml config.yaml
+2023-05-03 14:50:21,657 INFO    SenderThread:97728 [dir_watcher.py:finish():409] scan save: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/wandb-summary.json wandb-summary.json
+2023-05-03 14:50:21,671 INFO    SenderThread:97728 [dir_watcher.py:finish():409] scan save: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/wandb-metadata.json wandb-metadata.json
+2023-05-03 14:50:21,673 INFO    SenderThread:97728 [dir_watcher.py:finish():409] scan save: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/media/images/Cumulative returns of all indices_0_cb5ba0cf29f38b1097c2.png media/images/Cumulative returns of all indices_0_cb5ba0cf29f38b1097c2.png
+2023-05-03 14:50:21,673 INFO    SenderThread:97728 [sender.py:transition_state():626] send defer: 10
+2023-05-03 14:50:21,673 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: poll_exit
+2023-05-03 14:50:21,674 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: defer
+2023-05-03 14:50:21,674 INFO    HandlerThread:97728 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-03 14:50:21,674 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: defer
+2023-05-03 14:50:21,674 INFO    SenderThread:97728 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-03 14:50:21,674 INFO    SenderThread:97728 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-03 14:50:22,376 WARNING StreamThr :97728 [internal.py:is_dead():414] Internal process exiting, parent pid 96304 disappeared
+2023-05-03 14:50:22,376 ERROR   StreamThr :97728 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-05-03 14:50:22,463 INFO    wandb-upload_0:97728 [upload_job.py:push():137] Uploaded file /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/requirements.txt
+2023-05-03 14:50:22,463 INFO    wandb-upload_1:97728 [upload_job.py:push():137] Uploaded file /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/output.log
+2023-05-03 14:50:22,509 INFO    wandb-upload_3:97728 [upload_job.py:push():137] Uploaded file /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/wandb-summary.json
+2023-05-03 14:50:22,562 DEBUG   HandlerThread:97728 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-03 14:50:22,563 INFO    wandb-upload_2:97728 [upload_job.py:push():137] Uploaded file /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/files/config.yaml
+2023-05-03 14:50:22,563 INFO    HandlerThread:97728 [handler.py:finish():845] shutting down handler
+2023-05-03 14:50:22,563 INFO    WriterThread:97728 [datastore.py:close():298] close: /Users/antonkruse/Documents/GitHub/masterthesis/wandb/run-20230503_123852-kvb55lzc/run-kvb55lzc.wandb
+2023-05-03 14:50:22,563 DEBUG   SenderThread:97728 [sender.py:send_request():402] send_request: poll_exit
+2023-05-03 14:50:22,563 INFO    SenderThread:97728 [sender.py:finish():1550] shutting down sender
+2023-05-03 14:50:22,563 INFO    SenderThread:97728 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-03 14:50:22,563 INFO    SenderThread:97728 [file_pusher.py:join():173] waiting for file pusher
+2023-05-03 14:50:22,768 INFO    Thread-11 :97728 [sender.py:transition_state():626] send defer: 11
