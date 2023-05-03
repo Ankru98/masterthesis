@@ -1,0 +1,5 @@
+
+Stored 'cum_returns' (DataFrame)
+no stored variable or alias linear_forecast
+UsageError: Line magic function `%` not found.
+Stored 'linear_forecast' (TimeSeries)

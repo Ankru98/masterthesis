@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.2.1-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-05-03T07:46:21.822260",
+    "startedAt": "2023-05-03T07:46:21.114614",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "ML_forecasting_v2_Haas-jvsc-d5f3bb1f-48f7-4bf5-aae5-99cfde4cfb8792c36977-0d55-4ad4-8c26-31e33428114f.ipynb",
+    "root": "/Users/antonkruse/Documents/GitHub/masterthesis",
+    "git": {
+        "remote": "https://github.com/Ankru98/masterthesis.git",
+        "commit": "52c33ef81765583d7f06b814651c897c25d21e7c"
+    },
+    "email": "anton@kruseteam.de",
+    "host": "MacBook-Air-von-Anton.local",
+    "username": "antonkruse",
+    "executable": "/Users/antonkruse/.pyenv/versions/3.9.13/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 11.930622100830078
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
