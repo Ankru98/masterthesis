@@ -1,0 +1,130 @@
+
+Stored 'cum_returns' (DataFrame)
+Stored 'linear_forecast' (TimeSeries)
+The linear regression model has the following performance:
+MAPE:  45.6910638145044
+R2 score:  -2.2957597761969004
+MASE:  8.323047402392989
+MSE:  2.806474889968858
+Stored 'ridge_forecast' (TimeSeries)
+The ridge regression model has the following performance:
+MAPE:  41.55802669199635
+R2 score:  -5.068838539421969
+MASE:  9.627630394393538
+MSE:  4.725884525738499
+Stored 'lasso_forecast' (TimeSeries)
+The lasso regression model has the following performance:
+MAPE:  47.254194805064294
+R2 score:  -2.2771490522630278
+MASE:  8.436662088188536
+MSE:  2.908666702658795
+Stored 'elastic_net_forecast' (TimeSeries)
+The elastic net regression model has the following performance:
+MAPE:  47.254194805064294
+R2 score:  -2.2771490522630278
+MASE:  8.436662088188536
+MSE:  2.908666702658795
+Stored 'bridge_forecast' (TimeSeries)
+The bridge regression model has the following performance:
+MAPE:  70.75659654914958
+R2 score:  -3.003738065650542
+MASE:  7.583519175317216
+MSE:  2.399472742358792
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Stored 'pls_forecast' (TimeSeries)
+The pls regression model has the following performance:
+MAPE:  32.958365480549126
+R2 score:  -2.8965094627620642
+MASE:  9.061195263858792
+MSE:  3.848061887338684
+Stored 'pls_canonical_forecast' (TimeSeries)
+The pls canonical regression model has the following performance:
+MAPE:  37.470971689130295
+R2 score:  -4.773536396459083
+MASE:  7.390673819796626
+MSE:  2.7788201122553096
+Stored 'cca_forecast' (TimeSeries)
+The cca regression model has the following performance:
+MAPE:  88.61602341891123
+R2 score:  -5.533738481763187
+MASE:  9.99842821577712
+MSE:  3.5796015503866454
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Stored 'random_forest_forecast' (TimeSeries)
+The random forest model has the following performance:
+MAPE:  41.242633420622646
+R2 score:  -2.3432952778708978
+MASE:  9.291259250245716
+MSE:  3.826614626215637
+Stored 'gb_boosting_forecast' (TimeSeries)
+The gradient boosting model has the following performance:
+MAPE:  29.33743364426016
+R2 score:  -1.3299686732521825
+MASE:  7.676619932079913
+MSE:  2.5992532826493466
+Stored 'ada_boosting_forecast' (TimeSeries)
+The ada boosting model has the following performance:
+MAPE:  35.04555207672215
+R2 score:  -1.3413762570278058
+MASE:  7.840344600183127
+MSE:  2.936764241739013
+Stored 'extra_tree_forecast' (TimeSeries)
+The extra tree regression model has the following performance:
+MAPE:  43.029890328395155
+R2 score:  -2.2712398671384832
+MASE:  9.298961084274667
+MSE:  4.021378362793266
+Stored 'svr_forecast' (TimeSeries)
+The support vector regression model has the following performance:
+MAPE:  43.55229666872609
+R2 score:  -1.663160512175679
+MASE:  8.151721131851815
+MSE:  2.9512734730626744
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+Number of components is larger than 10 (14). Plotting only the first 10 components.
+ValueError: Specified series do not share any common times for which features can be created.
+ValueError: Specified series do not share any common times for which features can be created.
+ValueError: Specified series do not share any common times for which features can be created.
+ValueError: Specified series do not share any common times for which features can be created.
